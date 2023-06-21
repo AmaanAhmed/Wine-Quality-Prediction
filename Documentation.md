@@ -114,8 +114,7 @@ Overall, this analysis demonstrates the potential of machine learning models in 
 **_REFERENCES_**
 
 [1]	Wine quality. UCI Machine Learning Repository. (n.d.). https://archive.ics.uci.edu/dataset/186/wine+quality  
-[2]	Shin, T. (2022, November 10). Understanding feature importance and how to implement it in Python. Medium. 
-https://towardsdatascience.com/understanding-feature-importance-and-how-to-implement-it-in-pythonff0287b20285#:~:text=Feature%20Importance%20refers%20to%20techniques,to%20predict%20a%20certain%20variable. 
+[2]	Shin, T. (2022, November 10). Understanding feature importance and how to implement it in Python. Medium. https://towardsdatascience.com/understanding-feature-importance-and-how-to-implement-it-in-pythonff0287b20285#:~:text=Feature%20Importance%20refers%20to%20techniques,to%20predict%20a%20certain%20variable. 
 [3]	What is logistic regression?. IBM. (n.d.). https://www.ibm.com/topics/logistic-regression  
 [4]	What is a decision tree. IBM. (n.d.-a). https://www.ibm.com/topics/decision-trees 
 [5]	What is Random Forest?. IBM. (n.d.-c). https://www.ibm.com/topics/random-forest
