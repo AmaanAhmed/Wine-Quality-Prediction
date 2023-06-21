@@ -47,7 +47,7 @@ Here's an example of a histogram showing the distribution of the "fixed acidity"
   
 _**Fig. 1. Frequency distribution of life expectancy.**_
 
-![Picture](/content/Picture1.png)
+![Picture](/../main/content/Picture1.png)
 
 From this histogram, we can observe the frequency distribution of the fixed acidity values and gain an understanding of its range and distribution. 
 
