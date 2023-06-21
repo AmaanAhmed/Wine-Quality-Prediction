@@ -89,19 +89,19 @@ The developed classification models were evaluated on their performance in predi
 
 The Logistic Regression model achieved an overall accuracy of 0.82% on the testing set. The classification report revealed that the model performed well in identifying "good_quality" wines, with a high precision and recall for this class. However, it exhibited lower precision and recall for the "not good_quality" class. The ROC-AUC score for this model was y, indicating a moderate discriminatory power. The feature importance analysis showed that the most influential features in predicting wine quality were “Volatile Acidity”, “Density” and “pH”. 
 
-![Picture](/content/Picture2.png)
+![Picture](Content/Picture2.png)
   
 ### **Decision Trees:**
 
 The Decision Tree model achieved an overall accuracy of 0.83% on the testing set. The classification report indicated that the model performed reasonably well for both "good_quality" and "not good_quality" classes, with balanced precision and recall scores. The ROC-AUC score for this model was y, suggesting a good discriminatory capability. According to the feature importance analysis, “Alcohol”, “Density” and “Citric Acid” were found to be the most influential features in determining wine quality. 
 
-![Picture](/content/Picture3.png)
+![Picture](Content/Picture3.png)
   
 ### **Random Forests:**
 
 The Random Forest model achieved an overall accuracy of 0.88% on the testing set. Like the Decision Tree model, it demonstrated balanced precision and recall scores for both classes, indicating good performance. The ROC-AUC score for the Random Forest model was y, showcasing a strong discriminatory power. The feature importance analysis revealed that “Alcohol”, “Density” and “Volatile Acid” had the highest impact on predicting wine quality. 
 
-![Picture](/content/Picture4.png)
+![Picture](Content/Picture4.png)
 
 Overall, the results highlight that all three models showed promising performance in predicting the quality of wines based on the provided features. While Logistic Regression exhibited higher precision and recall for "good_quality" wines, Decision Trees and Random Forests demonstrated balanced performance for both classes. The Random Forest model, in particular, achieved the highest overall accuracy and ROC-AUC score, indicating its superiority in discriminatory power. 
 
