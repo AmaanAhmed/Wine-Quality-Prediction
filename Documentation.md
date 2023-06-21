@@ -47,7 +47,7 @@ Here's an example of a histogram showing the distribution of the "fixed acidity"
   
 _**Fig. 1. Frequency distribution of life expectancy.**_
 
-
+![Picture](/content/picture1.png)
 
 From this histogram, we can observe the frequency distribution of the fixed acidity values and gain an understanding of its range and distribution. 
 
@@ -88,15 +88,21 @@ The developed classification models were evaluated on their performance in predi
 ### **Logistic Regression:**
 
 The Logistic Regression model achieved an overall accuracy of 0.82% on the testing set. The classification report revealed that the model performed well in identifying "good_quality" wines, with a high precision and recall for this class. However, it exhibited lower precision and recall for the "not good_quality" class. The ROC-AUC score for this model was y, indicating a moderate discriminatory power. The feature importance analysis showed that the most influential features in predicting wine quality were “Volatile Acidity”, “Density” and “pH”. 
+
+![Picture](/content/picture2.png)
   
 ### **Decision Trees:**
 
 The Decision Tree model achieved an overall accuracy of 0.83% on the testing set. The classification report indicated that the model performed reasonably well for both "good_quality" and "not good_quality" classes, with balanced precision and recall scores. The ROC-AUC score for this model was y, suggesting a good discriminatory capability. According to the feature importance analysis, “Alcohol”, “Density” and “Citric Acid” were found to be the most influential features in determining wine quality. 
+
+![Picture](/content/picture3.png)
   
 ### **Random Forests:**
 
 The Random Forest model achieved an overall accuracy of 0.88% on the testing set. Like the Decision Tree model, it demonstrated balanced precision and recall scores for both classes, indicating good performance. The ROC-AUC score for the Random Forest model was y, showcasing a strong discriminatory power. The feature importance analysis revealed that “Alcohol”, “Density” and “Volatile Acid” had the highest impact on predicting wine quality. 
-  
+
+![Picture](/content/picture4.png)
+
 Overall, the results highlight that all three models showed promising performance in predicting the quality of wines based on the provided features. While Logistic Regression exhibited higher precision and recall for "good_quality" wines, Decision Trees and Random Forests demonstrated balanced performance for both classes. The Random Forest model, in particular, achieved the highest overall accuracy and ROC-AUC score, indicating its superiority in discriminatory power. 
 
 It is important to note that the class imbalance in the dataset could have influenced the model performance. The larger proportion of white wines compared to red wines might have affected the models' ability to accurately predict the quality of the minority class. Further exploration and application of techniques to address class imbalance, such as oversampling or under sampling, could be beneficial in improving model performance. 
